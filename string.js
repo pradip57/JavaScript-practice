@@ -6,7 +6,7 @@ console.log(a.length);
 
 //created string using backtick
 
-let b = `Hello "my" name is pradip
+let b = `Hello my name is pradip
 sapkota. i am a student`;
 
 b = b.toUpperCase();
@@ -24,13 +24,16 @@ console.log(c);
 //conversion of string into array
 
 let d = Array.from(b);
-console.log(d)
+console.log(d);
 
+let afterMap = d.map((curV, index) => {
+  return `${curV} - ${index}`;
+});
 
-let afterMap = d.map((curV,index)=>{
+console.log(afterMap);
 
-    return `${curV} - ${index}`
+//lastIndexOf gives the last occurence of char
 
-})
+let searchI = b.search(/A/i)
 
-console.log(afterMap)
+console.log(searchI)
