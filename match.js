@@ -24,7 +24,15 @@ console.log(str1.endsWith("sapkqota")); //
 
 //replace
 
+let rep = str1.replace("name", "nam");
 
-let rep = str1.replace("name","nam")
+console.log(rep);
 
-console.log(rep)
+//charAt and charCodeAt() gives the code of char at particular index
+
+//case insensative
+
+let test = "My Name is Hari Har Name Pandu"
+let test1 = test.replace(/Name/ig,"nam")   //g for all name in test and i for caseinsensative
+
+console.log(test1)
