@@ -15,8 +15,16 @@ console.log(d);
 
 //includes
 
+let str1 = "My name is pradip sapkota";
 
-let str1 = "My name is pradip sapkota"
+console.log(str1.includes("prakt"));
+console.log(str1.includes("pradip"));
 
-console.log(str1.includes('prakt'))
-console.log(str1.includes('pradip'))
+console.log(str1.endsWith("sapkqota")); //
+
+//replace
+
+
+let rep = str1.replace("name","nam")
+
+console.log(rep)
