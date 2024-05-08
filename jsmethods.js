@@ -17,3 +17,6 @@ fruitInArray.push("1");
 console.log(fruitInArray);
 const fruitInString = fruitInArray.join("");
 console.log(fruitInString);
+console.log(fruitInArray.reverse())
+    
+
